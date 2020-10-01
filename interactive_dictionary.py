@@ -24,9 +24,9 @@ def translate(w):
 word=input("Enter the Word to be Searched: ")
 
 output=translate(word)
+
 if type(output) == list:
     for item in output:
-
-            print("*"+item )
+        print("* "+item )
 else:
     print(output)
