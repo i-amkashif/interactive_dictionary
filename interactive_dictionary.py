@@ -27,6 +27,6 @@ output=translate(word)
 
 if type(output) == list:
     for item in output:
-        print("* "+item )
+        print(f"*{item}" )
 else:
     print(output)
